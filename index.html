@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Patterns</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Modular design pattern</h1>
+        </div>
+        <div class="form">
+            <form action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+                <input type="text" id="addBook" placeholder="Add Book">
+                <input type="submit" value="Add" class="btn btn-primary">
+            </form>
+
+            <table>
+                <tr>
+                    <th>
+                        <h3>Book Store</h3>
+                    </th>
+                </tr>
+                <tbody id="bookStore">
+                </tbody>
+            </table>
+
+            <table>
+                <tr>
+                    <th>
+                        <h3>Lent Books</h3>
+                    </th>
+                </tr>
+                <tbody id="lentBooks">
+                </tbody>
+            </table>
+            <b id="counter"></b>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
