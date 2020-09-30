@@ -1,0 +1,23 @@
+{
+    "name": "design-patterns",
+    "version": "1.0.0",
+    "description": "Javascript unit testing with jest",
+    "main": "script.js",
+    "dependencies": {
+        "jest": "^26.4.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/David405/Modular-design.git"
+    },
+    "author": "David Asamonye",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/David405/Modular-design/issues"
+    },
+    "homepage": "https://github.com/David405/Modular-design#readme"
+}
